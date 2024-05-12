@@ -20,4 +20,4 @@ This is a Spring Boot application for managing phone reservations.
 - Use the provided endpoints to manage phone reservations.
 
 ## Important Note
-- Before running the application, ensure that the database is initialized and populated by executing the `initialize_data.sql` script.
+- After running the application, ensure that the database is populated by executing the `initialize_data.sql` script. It is crucial to run this script after starting the application to populate tables with initial data.
