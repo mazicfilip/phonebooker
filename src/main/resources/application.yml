@@ -3,9 +3,9 @@ spring:
     name: phonebooker
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: "postgres"
-    password: "0000"
-    url: "jdbc:postgresql://localhost:5432/phonebooker"
+    username: "YOUR-POSTGRESQL_USERNAME"
+    password: "YOUR-POSTGRESQL_PASSWORD"
+    url: "YOUR-POSTGRESQL_URL"
   jpa:
     hibernate:
       ddl-auto: update
