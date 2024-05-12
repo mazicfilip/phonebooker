@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: phonebooker
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: "postgres"
+    password: "0000"
+    url: "jdbc:postgresql://localhost:5432/phonebooker"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+fonoapi:
+  url: "https://fonoapi.freshpixl.com/v1/"
+  token: "xxxxx"
+
